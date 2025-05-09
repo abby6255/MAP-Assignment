@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Namibia Hockey</string>
+    <string name="player_name_hint">player_name_hint</string>
+    <string name="register_button">register_button\n</string>
+    <string name="player_age_hint">player_age_hint\n</string>
+    <string name="player_position_hint">player_position_hint</string>
+    <string name="phone_number">Phone Number</string>
+</resources>

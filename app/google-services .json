@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078095408760",
+    "project_id": "hockey-namibia",
+    "storage_bucket": "hockey-namibia.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078095408760:android:ace69cece84fe1ed29478d",
+        "android_client_info": {
+          "package_name": "com.example.namibiahockey"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDW0hwZqCdZbYzTOGu7-r2_Po0RN5ySto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

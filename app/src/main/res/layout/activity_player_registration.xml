@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/player_name_hint"
+        android:inputType="textCapWords"
+        android:autofillHints="name"
+        android:importantForAutofill="yes"
+        android:textColor="@android:color/black"
+        android:hintTextColor="?android:attr/textColorHint"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintWidth_max="400dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="age"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:hint="@string/player_age_hint"
+        android:textColor="@android:color/black"
+        android:hintTextColor="?android:attr/textColorHint"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintWidth_max="400dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etName"
+        android:layout_marginTop="16dp"
+        android:importantForAutofill="yes" />
+
+    <EditText
+        android:id="@+id/etPosition"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="position"
+        android:hint="@string/player_position_hint"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black"
+        android:hintTextColor="?android:attr/textColorHint"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintWidth_max="400dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etAge"
+        android:layout_marginTop="16dp"
+        android:importantForAutofill="yes" />
+
+    <EditText
+        android:id="@+id/etContact"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:autofillHints="phone"
+        android:importantForAutofill="yes"
+        android:textColor="@android:color/black"
+        android:hintTextColor="?android:attr/textColorHint"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintWidth_max="400dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etPosition"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:minWidth="120dp"
+        android:minHeight="48dp"
+        android:text="@string/register_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etContact" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
